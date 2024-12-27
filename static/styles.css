@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/static/blue-office-stationery-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+main {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: rgb(0, 217, 255);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.609);
+}
+
+.nav-logo {
+    height: 110px;
+}
+
+.nav-text {
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0 5px 50px rgba(0, 217, 255, 0.609);
+    font-weight: 600;
+}
+
+.notas {
+    border: none;
+    background-color: #009bb335;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0 5px rgba(0, 217, 255, 0.672);
+}
+
+button {
+    padding: 20px 50px;
+    background-color: rgb(0, 217, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 217, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+h3 {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+    .navbar {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        width: auto;
+        height: 200px;
+    }
+
+    .nav-logo {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-text {
+        margin-right: 0;
+        margin-bottom: px;
+    }
+}

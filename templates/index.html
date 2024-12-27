@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Calc. Média</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="/static/rb_10322.png" class="nav-logo" alt="logo">
+        <h2 class="nav-text"> Calculadora de Nota Escolar</h2>
+    </nav>
+    <main>
+        <div class="container">
+            <h1 class="title">Calcule Sua Média Aqui</h1>
+            <form action="" id="formNotas">
+                <label for="S1">Nota P1</label><br>
+                <input type="number" class="notas" id="nota1" step="0.1" required><br><br>
+                <label for="S1">Nota P2</label><br>
+                <input type="number" class="notas" id="nota2" step="0.1" required><br><br>
+                <label for="S1">Nota Trabalho</label><br>
+                <input type="number" class="notas" id="nota3" step="0.1" required><br><br>
+
+                <button type="button" onclick="calcularMedia()">Calcular</button>
+            </form>
+            <div id="resultado"></div>
+        </div>
+    </main>
+    <footer>
+        <h3>&copy 2024 Pedro Mariano</h3>
+    </footer>
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
